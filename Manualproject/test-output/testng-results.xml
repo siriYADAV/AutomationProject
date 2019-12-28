@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35127" started-at="2019-12-27T04:17:43Z" finished-at="2019-12-27T04:18:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35127" started-at="2019-12-27T04:17:43Z" finished-at="2019-12-27T04:18:18Z">
+      <class name="com.testsrcripts.SeleniumeasyFirstform">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.testsrcripts.SeleniumeasyFirstform@1b604f19]" name="beforeTest" is-config="true" duration-ms="20513" started-at="2019-12-26T21:17:43Z" finished-at="2019-12-26T21:18:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginPage(java.lang.String, double, double)[pri:0, instance:com.testsrcripts.SeleniumeasyFirstform@1b604f19]" name="loginPage" duration-ms="5547" started-at="2019-12-26T21:18:12Z" data-provider="excelData" finished-at="2019-12-26T21:18:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello There !]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testsrcripts.SeleniumeasyFirstform@1b604f19]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-12-26T21:18:18Z" finished-at="2019-12-26T21:18:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.testsrcripts.SeleniumeasyFirstform -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
